@@ -1,13 +1,20 @@
 import React, {useState} from "react";
 
+
 function ToDolist(){
+
+function addtask(){
+    const []
+}
+
+    
     return(
-        //minha pagina toDolist
+        
         <div className="to-do-list">
             <h1>Coisas a fazer</h1>
             <div>
                 <input type="text" placeholder="Digite sua tarefa"/>
-                <button> Adicionar</button>
+                <button onClick={addtask}> Adicionar</button>
             </div>
         </div>
     );
